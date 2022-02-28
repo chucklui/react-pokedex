@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Pokedex from './Pokedex';
 
 function App() {
@@ -18,5 +17,5 @@ function App() {
     <Pokedex list={pokemon} />
   );
 
-  export default App;
 }
+export default App;
