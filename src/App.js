@@ -1,6 +1,8 @@
-
 import Pokedex from './Pokedex';
 
+/**this component calls Pokedex component
+ * and pass an array of pokemon info
+ */
 function App() {
   const pokemon = [
     { id: 4, name: 'Charmander', type: 'fire', base_experience: 62 },
@@ -14,7 +16,7 @@ function App() {
   ];
 
   return (
-    <Pokedex list={pokemon} />
+    <Pokedex pokemonArray={pokemon} />
   );
 
 }
