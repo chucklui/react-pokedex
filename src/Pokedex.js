@@ -12,10 +12,10 @@ function Pokedex({ list }) {
   );
 
   return (
-    <div>
+    <div className='Pokedex'>
       <h1 className='Pokedex-title'>Pokedex</h1>
-      {pokecards}
-    </div>)
+      <div className='Pokedex-container'>{pokecards}</div>
+    </div >)
 }
 
 export default Pokedex;

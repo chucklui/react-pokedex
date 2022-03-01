@@ -1,0 +1,31 @@
+.Pokecard {
+    display:inline-block;
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+    height: auto;
+    width: 200px;
+    justify-content: center;
+    margin: 15px 30px;
+}
+
+.Pokecard-name {
+    display:flex;
+    justify-content: center;
+    color:rgb(64, 70, 240);
+}
+.Pokecard-img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+}
+.Pokecard-type {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.Pokecard-exp {
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+}

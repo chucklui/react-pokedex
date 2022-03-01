@@ -1,6 +1,11 @@
 .Pokedex-title{
     display: flex;
-    border: 1px solid red;
-    background-color: blue;
+    justify-content: center;
+    color:gray;
+}
+
+.Pokedex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
