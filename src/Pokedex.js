@@ -8,7 +8,7 @@ import './Pokedex.css';
  *
  *and returns an array of HTML elements from Pokecard
  */
-function Pokedex({ pokemonArray }) {
+function Pokedex({ pokemonArray, isWinner }) {
   const pokecards = pokemonArray.map(p => <Pokecard
     id={p.id}
     name={p.name}
@@ -20,6 +20,7 @@ function Pokedex({ pokemonArray }) {
     <div className='Pokedex'>
       <h1 className='Pokedex-title'>Pokedex</h1>
       <div className='Pokedex-container'>{pokecards}</div>
+      <p className='Pokedex-winner'>{(isWinner === true) ? "This hand wins!" : ""}</p>
     </div >)
 }
 

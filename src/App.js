@@ -1,4 +1,4 @@
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 
 /**this component calls Pokedex component
  * and pass an array of pokemon info
@@ -16,7 +16,7 @@ function App() {
   ];
 
   return (
-    <Pokedex pokemonArray={pokemon} />
+    <Pokegame pokemonArray={pokemon} />
   );
 
 }
