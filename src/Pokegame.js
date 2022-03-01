@@ -14,6 +14,11 @@ function Pokegame({ pokemonArray }) {
   }
   //
   const hand2 = newArr;
+  
+  console.log("1111111111", hand1);
+
+  console.log("222222222", hand2);
+
 
   const hand1Exp = hand1.reduce(function (pokemon, score) {
     return pokemon.exp + score;
